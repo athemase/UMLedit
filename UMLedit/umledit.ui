@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UMLeditClass</class>
+ <widget class="QMainWindow" name="UMLeditClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>976</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>UMLedit</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGraphicsView" name="DrawWindow">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>941</width>
+      <height>551</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>976</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionExport_File"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionSet_Name"/>
+   <addaction name="actionGroup"/>
+   <addaction name="actionUngroup"/>
+   <addaction name="separator"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionExport_File">
+   <property name="text">
+    <string>Export File</string>
+   </property>
+  </action>
+  <action name="actionSet_Name">
+   <property name="icon">
+    <iconset>
+     <normaloff>image/Text.png</normaloff>image/Text.png</iconset>
+   </property>
+   <property name="text">
+    <string>Set_Name</string>
+   </property>
+  </action>
+  <action name="actionUngroup">
+   <property name="icon">
+    <iconset>
+     <normaloff>image/Ungroup.png</normaloff>image/Ungroup.png</iconset>
+   </property>
+   <property name="text">
+    <string>Ungroup</string>
+   </property>
+  </action>
+  <action name="actionGroup">
+   <property name="icon">
+    <iconset>
+     <normaloff>image/Group.png</normaloff>image/Group.png</iconset>
+   </property>
+   <property name="text">
+    <string>Group</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="umledit.qrc"/>
+ </resources>
+ <connections/>
+</ui>

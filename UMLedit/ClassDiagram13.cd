@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UMLItemGroup" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UMLItemGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Association" Collapsed="true">
+    <Position X="3" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Association.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Class" Collapsed="true">
+    <Position X="3.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBgAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Composite" Collapsed="true">
+    <Position X="6" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABgAAAACAgAAAAAAAAIAAAAAAAAAAAAAEAAAAAAABAA=</HashCode>
+      <FileName>Composite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Composition" Collapsed="true">
+    <Position X="5.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABgAACAAAAgACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Generalization" Collapsed="true">
+    <Position X="0.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABgAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAA=</HashCode>
+      <FileName>Generalization.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mode_association" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAABAAAAgAAAAAAhAAIAQEAAIAAAAAAAAAAA=</HashCode>
+      <FileName>mode_association.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mode_composition" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAABAAAAgAAAAAAhAAIAQEAAAAAAAAAAAAIA=</HashCode>
+      <FileName>mode_composition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mode_generalization" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAABAAAAgAAAAAAhAAIAQEEAAAAAAAAAAAAA=</HashCode>
+      <FileName>mode_generalization.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Port" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAEAAABAAAAAAAoACAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Port.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UMLGraphicsLine" Collapsed="true">
+    <Position X="3" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAACCAACAAAgAEAAAAAAAAhAAACAAAAAAAAAAAE=</HashCode>
+      <FileName>UMLGraphicsLine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mode_class" Collapsed="true">
+    <Position X="1" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABgAAAAAAAAAABAQIAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mode_class.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mode_cursor" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAABABAAAAQAAAABACIAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mode_cursor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mode_usecase" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAABAAAAAAAAAAABAAIAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mode_usecase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UMLGraphics" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UMLGraphics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UMLGraphicsItem" Collapsed="true">
+    <Position X="6" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABgAAAAAAAAAAAQARQAAAAACAAgUAAgAAAAACIAAAKA=</HashCode>
+      <FileName>UMLGraphicsItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UMLMode" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAACABAAIAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UMLMode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UMLSenceBackground" Collapsed="true">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAABIAACEQAIIAABAAAAQAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>UMLSenceBackground.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UseCase" Collapsed="true">
+    <Position X="8.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBgAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>UseCase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UMLedit" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABAAAAAQAAAEAAAAAAAAoAAAAAAAEIAAAAAAAgAAAA=</HashCode>
+      <FileName>umledit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mode_item" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAABgAAAAAAAAAABAAIAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mode_item.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui_UMLeditClass" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAQAEAUAAAAAACAIAAAAQAIAAggABAQAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\ui_umledit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui::UMLeditClass" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\ui_umledit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft JhengHei" Size="9" />
+</ClassDiagram>
